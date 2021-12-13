@@ -1,6 +1,6 @@
 {
   "name": "@vinothvkr/ckeditor5-build-classic",
-  "version": "31.1.0",
+  "version": "31.1.0-10",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -45,6 +45,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "^31.1.0",
     "@ckeditor/ckeditor5-table": "^31.1.0",
     "@ckeditor/ckeditor5-typing": "^31.1.0",
+    "@ckeditor/ckeditor5-upload": "^31.1.0",
     "@wiris/mathtype-ckeditor5": "^7.27.2"
   },
   "devDependencies": {
@@ -74,6 +75,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "preversion": "npm run build"
+    "preversion": "npm run build",
+    "publish": "yarn npm publish --access public"
   }
 }

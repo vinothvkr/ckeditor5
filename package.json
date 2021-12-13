@@ -2,6 +2,7 @@
   "name": "@vinothvkr/ckeditor5",
   "version": "31.1.0",
   "description": "The development environment of CKEditor 5 – the best browser-based rich text editor.",
+  "private": true,
   "keywords": [
     "ckeditor",
     "ckeditor5",
